@@ -1,0 +1,17 @@
+asset runtime.js 5.78 KiB [compared for emit] (name: runtime)
+asset allInOne.js 1.68 KiB [compared for emit] (name: allInOne)
+asset vendor.js 1.25 KiB [compared for emit] (name: vendor)
+asset needsVendor.js 901 bytes [compared for emit] (name: needsVendor)
+Entrypoint allInOne 7.46 KiB = runtime.js 5.78 KiB allInOne.js 1.68 KiB
+Entrypoint needsVendor 901 bytes = needsVendor.js
+Entrypoint vendor 7.02 KiB = runtime.js 5.78 KiB vendor.js 1.25 KiB
+chunk (runtime: runtime) allInOne.js (allInOne) 431 bytes ={runtime}= [initial] [rendered]
+  dependent modules 387 bytes [dependent] 1 module
+  ./main-all-in-one.js 44 bytes [built] [code generated]
+chunk (runtime: runtime) needsVendor.js (needsVendor) 44 bytes <{runtime}> <{vendor}> [initial] [rendered]
+  ./main-needs-vendor.js 44 bytes [built] [code generated]
+chunk (runtime: runtime) runtime.js (runtime) 2.98 KiB ={allInOne}= ={vendor}= >{needsVendor}< [entry] [rendered]
+  runtime modules 2.98 KiB 5 modules
+chunk (runtime: runtime) vendor.js (vendor) 387 bytes ={runtime}= >{needsVendor}< [initial] [rendered]
+  ./node_modules/doma/index.js 387 bytes [built] [code generated]
+webpack 5.50.0 compiled successfully in 88 ms
