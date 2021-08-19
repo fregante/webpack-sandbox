@@ -6,6 +6,9 @@
     new Map(),
     fetch("sideEffectB2"),
     document.body.scrollHeight,
+    new Map(),
+    fetch("sideEffectUnused2"),
+    document.body.scrollHeight,
     console.log(
       "In main",
       function () {
