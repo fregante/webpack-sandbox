@@ -1,0 +1,14 @@
+[webpack-cli] Failed to load './webpack.config.ts' config
+[webpack-cli] TypeError [ERR_UNKNOWN_FILE_EXTENSION]: Unknown file extension ".ts" for ./webpack.config.ts
+    at new NodeError (node:internal/errors:329:5)
+    at Loader.defaultGetFormat [as _getFormat] (node:internal/modules/esm/get_format:71:15)
+    at Loader.getFormat (node:internal/modules/esm/loader:104:42)
+    at Loader.getModuleJob (node:internal/modules/esm/loader:242:31)
+    at async Loader.import (node:internal/modules/esm/loader:176:17)
+    at async importModuleDynamicallyWrapper (node:internal/vm/module:437:15)
+    at async WebpackCLI.tryRequireThenImport (./node_modules/webpack-cli/lib/webpack-cli.js:57:26)
+    at async WebpackCLI.loadConfig (./node_modules/webpack-cli/lib/webpack-cli.js:1554:23)
+    at async WebpackCLI.resolveConfig (./node_modules/webpack-cli/lib/webpack-cli.js:1677:38)
+    at async WebpackCLI.createCompiler (./node_modules/webpack-cli/lib/webpack-cli.js:2085:22) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
