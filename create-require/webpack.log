@@ -1,0 +1,31 @@
+assets by status 362 bytes [cached] 1 asset
+./main.js 125 bytes [built] [code generated]
+
+ERROR in ./main.js 1:0-39
+Module not found: Error: Can't resolve 'module' in './webpack-sandbox/create-require'
+resolve 'module' in './webpack-sandbox/create-require'
+  Parsed request is a module
+  using description file: ./webpack-sandbox/create-require/package.json (relative path: .)
+    Field 'browser' doesn't contain a valid alias configuration
+    resolve as module
+      looking for modules in ./webpack-sandbox/create-require/node_modules
+        single file module
+          using description file: ./webpack-sandbox/create-require/package.json (relative path: ./node_modules/module)
+            no extension
+              Field 'browser' doesn't contain a valid alias configuration
+              ./webpack-sandbox/create-require/node_modules/module doesn't exist
+            .js
+              Field 'browser' doesn't contain a valid alias configuration
+              ./webpack-sandbox/create-require/node_modules/module.js doesn't exist
+            .json
+              Field 'browser' doesn't contain a valid alias configuration
+              ./webpack-sandbox/create-require/node_modules/module.json doesn't exist
+            .wasm
+              Field 'browser' doesn't contain a valid alias configuration
+              ./webpack-sandbox/create-require/node_modules/module.wasm doesn't exist
+        ./webpack-sandbox/create-require/node_modules/module doesn't exist
+      ./webpack-sandbox/node_modules doesn't exist or is not a directory
+      ./node_modules doesn't exist or is not a directory
+      /node_modules doesn't exist or is not a directory
+
+webpack 5.51.1 compiled with 1 error in 213 ms
