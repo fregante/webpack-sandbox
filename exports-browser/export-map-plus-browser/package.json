@@ -1,0 +1,7 @@
+{
+	"exports": {
+		".": "./index.js",
+		"./browser": "./exports-browser.js"
+	},
+	"browser": "./browser.js"
+}

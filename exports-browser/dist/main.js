@@ -1,5 +1,8 @@
 (() => {
 	var e = {
+			617: () => {
+				console.log('field: exports["."]');
+			},
 			507: () => {
 				console.log('field: exports["."]');
 			},
@@ -7,26 +10,26 @@
 				console.log('field: browser');
 			},
 		},
-		r = {};
-	function o(t) {
-		var n = r[t];
-		if (void 0 !== n) return n.exports;
-		var s = (r[t] = {exports: {}});
-		return e[t](s, s.exports, o), s.exports;
+		o = {};
+	function r(t) {
+		var l = o[t];
+		if (void 0 !== l) return l.exports;
+		var s = (o[t] = {exports: {}});
+		return e[t](s, s.exports, r), s.exports;
 	}
-	(o.n = e => {
-		var r = e && e.__esModule ? () => e.default : () => e;
-		return o.d(r, {a: r}), r;
+	(r.n = e => {
+		var o = e && e.__esModule ? () => e.default : () => e;
+		return r.d(o, {a: o}), o;
 	}),
-		(o.d = (e, r) => {
-			for (var t in r)
-				o.o(r, t) &&
-					!o.o(e, t) &&
-					Object.defineProperty(e, t, {enumerable: !0, get: r[t]});
+		(r.d = (e, o) => {
+			for (var t in o)
+				r.o(o, t) &&
+					!r.o(e, t) &&
+					Object.defineProperty(e, t, {enumerable: !0, get: o[t]});
 		}),
-		(o.o = (e, r) => Object.prototype.hasOwnProperty.call(e, r)),
+		(r.o = (e, o) => Object.prototype.hasOwnProperty.call(e, o)),
 		(() => {
 			'use strict';
-			o(933), o(507);
+			r(933), r(507), r(617);
 		})();
 })();
