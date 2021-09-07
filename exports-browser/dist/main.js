@@ -1,5 +1,8 @@
 (() => {
 	var e = {
+			743: () => {
+				console.log('field: exports["node"]');
+			},
 			617: () => {
 				console.log('field: exports["."]');
 			},
@@ -30,6 +33,6 @@
 		(r.o = (e, o) => Object.prototype.hasOwnProperty.call(e, o)),
 		(() => {
 			'use strict';
-			r(933), r(507), r(617);
+			r(933), r(507), r(617), r(743);
 		})();
 })();
