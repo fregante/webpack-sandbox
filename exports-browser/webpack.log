@@ -1,0 +1,7 @@
+asset main.js 489 bytes [compared for emit] [minimized] (name: main)
+runtime modules 663 bytes 3 modules
+cacheable modules 108 bytes
+  ./main.js 43 bytes [built] [code generated]
+  ./old-style/browser.js 30 bytes [built] [code generated]
+  ./export-map/index.js 35 bytes [built] [code generated]
+webpack 5.52.0 compiled successfully in 185 ms
