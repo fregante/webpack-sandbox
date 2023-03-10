@@ -1,0 +1,1 @@
+(()=>{const{NAME:o}=process.env;console.log("12345")})();
