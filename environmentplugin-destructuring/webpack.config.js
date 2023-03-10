@@ -4,8 +4,6 @@ module.exports = {
 		main: './main.js',
 	},
 	plugins: [
-		new EnvironmentPlugin({
-			NAME: undefined
-		})
+		new EnvironmentPlugin(['NAME'])
 	]
 };
