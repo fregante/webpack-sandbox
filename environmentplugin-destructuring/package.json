@@ -1,18 +1,9 @@
 {
-  "name": "defineplugin-destructuring",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "NAME=12345 npx webpack build"
+    "build": "NAME=12345 webpack --mode production ./main.js | tee webpack.log"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "webpack": "^5.76.0"
-  },
-  "devDependencies": {
+    "webpack": "^5.76.0",
     "webpack-cli": "^5.0.1"
   }
 }
