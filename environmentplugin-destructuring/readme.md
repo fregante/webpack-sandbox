@@ -1,4 +1,4 @@
-# Destructuring support via EnvironmentMent
+# Destructuring support via EnvironmentPlugin
 
 Context: https://github.com/webpack/webpack/issues/14800#issuecomment-1463385308
 
