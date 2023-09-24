@@ -1,0 +1,9 @@
+asset main.js 1.72 KiB [emitted] [minimized] (name: main)
+asset main.css 103 bytes [emitted] (name: main)
+Entrypoint main 1.82 KiB = main.js 1.72 KiB main.css 103 bytes
+runtime modules 3.45 KiB 5 modules
+cacheable modules 46 bytes (javascript) 71 bytes (css)
+  ./src/import.js 46 bytes [built] [code generated]
+  css ./src/style.css 40 bytes [built] [code generated]
+  css ./src/secondary.css 31 bytes [built] [code generated]
+webpack 5.88.2 compiled successfully in 367 ms

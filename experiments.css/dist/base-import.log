@@ -1,8 +1,0 @@
-asset base-import.js 1.71 KiB [emitted] [minimized] (name: main)
-asset base-import.css 66 bytes [emitted] (name: main)
-Entrypoint main 1.78 KiB = base-import.js 1.71 KiB base-import.css 66 bytes
-runtime modules 3.45 KiB 5 modules
-cacheable modules 21 bytes (javascript) 40 bytes (css)
-  ./src/base-import.js 21 bytes [built] [code generated]
-  css ./src/style.css 40 bytes [built] [code generated]
-webpack 5.88.2 compiled successfully in 368 ms

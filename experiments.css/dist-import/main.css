@@ -1,0 +1,9 @@
+.soup::before {
+	content: 'Good soup'
+}
+
+.education {
+	display: none;
+}
+
+head{--webpack-179:_812,_739;}

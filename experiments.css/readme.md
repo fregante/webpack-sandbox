@@ -9,5 +9,4 @@ Tracking PRs:
 ## Results
 
 - `import "./style.css"` will attempt to load the file
-- `import stylesheet from "./style.css" asset { type: "css" }` fails
-- `new  URL("./style.css", import.meta.url)` works as expected, but I shouldn't be required to change the way I import the files
+- `new  URL("./style.css", import.meta.url)` won't load the file, but it does not merge the stylesheets
