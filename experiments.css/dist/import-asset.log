@@ -1,0 +1,10 @@
+assets by status 305 bytes [cached] 1 asset
+./src/import-asset.js 60 bytes [built] [code generated] [1 error]
+
+ERROR in ./src/import-asset.js 1:37
+Module parse failed: Unexpected token (1:37)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> import stylesheet from "./style.css" asset { type: "css" }:
+|
+
+webpack 5.88.2 compiled with 1 error in 246 ms

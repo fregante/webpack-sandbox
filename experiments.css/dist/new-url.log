@@ -1,0 +1,7 @@
+asset new-url.js 336 bytes [emitted] [minimized] (name: main)
+asset 37c543180042ed9debd8.css 40 bytes [emitted] [immutable] [from: src/style.css] (auxiliary name: main)
+runtime modules 534 bytes 3 modules
+cacheable modules 83 bytes (javascript) 40 bytes (asset)
+  ./src/new-url.js 41 bytes [built] [code generated]
+  ./src/style.css 42 bytes (javascript) 40 bytes (asset) [built] [code generated]
+webpack 5.88.2 compiled successfully in 301 ms
