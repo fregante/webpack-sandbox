@@ -6,4 +6,4 @@ cacheable modules 46 bytes (javascript) 71 bytes (css)
   ./src/import.js 46 bytes [built] [code generated]
   css ./src/style.css 40 bytes [built] [code generated]
   css ./src/secondary.css 31 bytes [built] [code generated]
-webpack 5.88.2 compiled successfully in 367 ms
+webpack 5.88.2 compiled successfully in 374 ms

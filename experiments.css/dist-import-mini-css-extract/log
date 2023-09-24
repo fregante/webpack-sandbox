@@ -1,0 +1,9 @@
+asset main.css 73 bytes [emitted] (name: main)
+asset main.js 0 bytes [emitted] [minimized] (name: main)
+Entrypoint main 73 bytes = main.css 73 bytes main.js 0 bytes
+orphan modules 3.31 KiB (javascript) 1.83 KiB (runtime) [orphan] 14 modules
+cacheable modules 46 bytes (javascript) 71 bytes (css/mini-extract)
+  ./src/import.js 46 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/style.css 40 bytes [built] [code generated]
+  css ./node_modules/css-loader/dist/cjs.js!./src/secondary.css 31 bytes [built] [code generated]
+webpack 5.88.2 compiled successfully in 418 ms

@@ -1,0 +1,8 @@
+.soup::before {
+	content: 'Good soup'
+}
+
+.education {
+	display: none;
+}
+
