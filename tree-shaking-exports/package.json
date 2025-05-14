@@ -1,4 +1,6 @@
 {
+  "name": "tree-shaking-exports",
+  "exports": "./imports/packaged.js",
   "scripts": {
     "build": "webpack --mode production ./main.js | tee webpack.log"
   },
