@@ -1,0 +1,9 @@
+asset main.js 1.05 KiB [emitted] [minimized] (name: main)
+asset 017b8d924163be07c12d.txt 7 bytes [emitted] [immutable] [from: no-dot.txt] (auxiliary name: main)
+asset 791f9027b5019734389e.txt 4 bytes [emitted] [immutable] [from: dot.txt] (auxiliary name: main)
+runtime modules 1.73 KiB 4 modules
+cacheable modules 196 bytes (javascript) 11 bytes (asset)
+  ./src.js 112 bytes [built] [code generated]
+  ./dot.txt 4 bytes (asset) 42 bytes (javascript) [built] [code generated]
+  ./no-dot.txt 7 bytes (asset) 42 bytes (javascript) [built] [code generated]
+webpack 5.101.0 compiled successfully in 137 ms

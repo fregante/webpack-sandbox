@@ -1,0 +1,11 @@
+{
+  "name": "tree-shaking-exports",
+  "exports": "./imports/packaged.js",
+  "scripts": {
+    "build": "webpack --mode production | tee webpack.log && npx prettier dist --write"
+  },
+  "dependencies": {
+    "webpack": "^5.101.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
