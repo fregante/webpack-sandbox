@@ -2,7 +2,7 @@
   "name": "tree-shaking-exports",
   "exports": "./imports/packaged.js",
   "scripts": {
-    "build": "webpack --mode production ./main.js | tee webpack.log"
+    "build": "webpack --mode production | tee webpack.log"
   },
   "dependencies": {
     "webpack": "^5.99.8",

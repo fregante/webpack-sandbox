@@ -1,4 +1,4 @@
-asset main.js 42 bytes [compared for emit] [minimized] (name: main)
+asset main.js 42 bytes [emitted] [minimized] (name: main)
 orphan modules 87 bytes [orphan] 3 modules
-./main.js + 3 modules 470 bytes [built] [code generated]
-webpack 5.99.8 compiled successfully in 139 ms
+./src.js + 3 modules 470 bytes [built] [code generated]
+webpack 5.99.8 compiled successfully in 111 ms
