@@ -1,0 +1,11 @@
+{
+  "name": "top-level-await-config",
+  "type": "module",
+  "scripts": {
+    "build": "webpack --mode production --disable-interpret | tee webpack.log"
+  },
+  "dependencies": {
+    "webpack": "^5.101.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
