@@ -1,0 +1,15 @@
+{
+  "name": "sass-loader-verbose",
+  "type": "module",
+  "scripts": {
+    "build": "webpack --mode production | tee webpack.log"
+  },
+  "dependencies": {
+    "css-loader": "^7.1.2",
+    "sass": "^1.93.2",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.101.1",
+    "webpack-cli": "^6.0.1"
+  }
+}

@@ -1,0 +1,26 @@
+assets by status 3.38 KiB [cached] 1 asset
+runtime modules 698 bytes 4 modules
+orphan modules 1.17 KiB [orphan] 1 module
+cacheable modules 7.07 KiB
+  modules by path ./node_modules/style-loader/dist/runtime/*.js 5.84 KiB
+    ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js 2.42 KiB [built] [code generated]
+    ./node_modules/style-loader/dist/runtime/styleDomAPI.js 1.5 KiB [built] [code generated]
+    ./node_modules/style-loader/dist/runtime/insertBySelector.js 1000 bytes [built] [code generated]
+    ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js 298 bytes [built] [code generated]
+    ./node_modules/style-loader/dist/runtime/insertStyleElement.js 285 bytes [built] [code generated]
+    ./node_modules/style-loader/dist/runtime/styleTagTransform.js 380 bytes [built] [code generated]
+  ./src.js + 1 modules 1.19 KiB [built] [code generated]
+  ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src.scss 39 bytes [built] [code generated] [1 error]
+
+ERROR in ./src.scss (./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src.scss)
+Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
+$description: Unknown color space "dark".
+  ╷
+2 │   color: color(dark)
+  │          ^^^^^^^^^^^
+  ╵
+  src.scss 2:10  root stylesheet
+ @ ./src.scss 8:6-136 20:17-24 25:22-29 25:33-47 25:50-64 24:0-106 24:0-106
+ @ ./src.js 1:0-20
+
+webpack 5.101.1 compiled with 1 error in 378 ms
