@@ -1,0 +1,10 @@
+{
+  "name": "my-lib",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "exports": {
+    ".": "./root.js",
+    "./?param": "./param.js"
+  }
+}
