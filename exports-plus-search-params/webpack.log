@@ -1,0 +1,7 @@
+assets by status 256 bytes [cached] 1 asset
+./src/index.js 58 bytes [built] [code generated]
+
+ERROR in ./src/index.js 1:0-35
+Module not found: Error: Package path ./?raw is not exported from package ~/exports-plus-search-params/node_modules/p-memoize (see exports field in ~/exports-plus-search-params/node_modules/p-memoize/package.json)
+
+webpack 5.102.1 compiled with 1 error in 123 ms

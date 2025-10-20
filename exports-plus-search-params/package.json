@@ -1,0 +1,14 @@
+{
+  "name": "exports-plus-search-params",
+  "type": "module",
+  "scripts": {
+    "webpack": "webpack --mode production | tee webpack.log",
+    "vite": "vite build | tee vite.log"
+  },
+  "dependencies": {
+    "p-memoize": "^8.0.0",
+    "vite": "^7.1.11",
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
