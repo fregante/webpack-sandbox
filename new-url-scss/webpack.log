@@ -1,0 +1,22 @@
+assets by status 50 bytes [cached] 1 asset
+assets by chunk 546 KiB (name: main)
+  asset main.css 537 KiB [compared for emit] (name: main)
+  asset main.js 8.73 KiB [compared for emit] (name: main)
+asset css/bootstrap.css 50 bytes [compared for emit] [from: node_modules/bootstrap/scss/bootstrap.scss?url] (auxiliary name: main)
+Entrypoint main 546 KiB (100 bytes) = main.css 537 KiB main.js 8.73 KiB 2 auxiliary assets
+orphan modules 551 KiB (javascript) 975 bytes (runtime) [orphan] 31 modules
+runtime modules 5.12 KiB 19 modules
+cacheable modules 527 bytes (javascript) 100 bytes (asset) 536 KiB (css/mini-extract)
+  modules by layer 527 bytes (javascript) 100 bytes (asset)
+    javascript modules 443 bytes 3 modules
+    asset modules 100 bytes (asset) 84 bytes (javascript)
+      ./node_modules/bootstrap/scss/bootstrap.scss 50 bytes (asset) 42 bytes (javascript) [built] [code generated]
+      ./node_modules/bootstrap/scss/bootstrap.scss?url 50 bytes (asset) 42 bytes (javascript) [built] [code generated]
+  css modules 536 KiB
+    modules by path ./*.scss 59 bytes
+      css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./style.scss 19 bytes [built] [code generated]
+      css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./component.module.scss 40 bytes [built] [code generated]
+    modules by path ./node_modules/bootstrap/scss/*.scss 536 KiB
+      css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/bootstrap/scss/bootstrap.scss 268 KiB [built] [code generated]
+      css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./node_modules/bootstrap/scss/bootstrap.scss?url 268 KiB [built] [code generated]
+webpack 5.102.1 compiled successfully in 3312 ms
