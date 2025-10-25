@@ -1,0 +1,15 @@
+assets by status 421 bytes [cached] 1 asset
+runtime modules 544 bytes 2 modules
+./src.js 57 bytes [built] [code generated]
+
+ERROR in ./src.js 1:12-54
+Module not found: Error: Can't resolve './missing-file' in '~/url-assets-missing'
+resolve './missing-file' in '~/url-assets-missing'
+  using description file: ~/url-assets-missing/package.json (relative path: .)
+    using description file: ~/url-assets-missing/package.json (relative path: ./missing-file)
+      no extension
+        ~/url-assets-missing/missing-file doesn't exist
+      as directory
+        ~/url-assets-missing/missing-file doesn't exist
+
+webpack 5.102.1 compiled with 1 error in 142 ms
