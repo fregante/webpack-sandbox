@@ -2,8 +2,8 @@
   "name": "exports-plus-search-params",
   "type": "module",
   "scripts": {
-    "webpack": "webpack --mode production | tee webpack.log",
-    "vite": "vite build | tee vite.log"
+    "webpack": "webpack --mode production 2>&1 | tee webpack.log",
+    "vite": "vite build 2>&1 | tee vite.log"
   },
   "dependencies": {
     "vite": "^7.1.11",
